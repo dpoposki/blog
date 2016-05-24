@@ -1,0 +1,21 @@
+{
+    "name": "poposki/blog",
+    "type": "library",
+    "description": "Dev share talk on how to build a decoupled blog module",
+    "homepage": "https://github.com/dpoposki",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Darko Poposki",
+            "email": "darko.poposki+github@sitewards.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Poposki\\": "src/Poposki"
+        }
+    }
+}
